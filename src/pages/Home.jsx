@@ -1,11 +1,13 @@
+import { Caroussel } from "../components/Caroussel"
 import { Gmap } from "../components/Gmap"
-import { Jumbotron } from "../components/Jumbotron"
+import { JumbotroN } from "../components/Jumbotron"
 
 
 export const Home = () => {
   return (
     <>
-    <Jumbotron />
+    <Caroussel />
+    <JumbotroN />
     <Gmap />
     </>
   )
