@@ -19,6 +19,7 @@ export const NavBar = () => {
             <Nav.Link as={Link} to='/react-store/shoppingcart'>Carro de compras</Nav.Link>
             <Nav.Link as={Link} to='/react-store/contact'>Contacto</Nav.Link>
             <Nav.Link as={Link} to='/react-store/blog'>Blog</Nav.Link>
+            <Nav.Link as={Link} to='/react-store/login'>Iniciar sesión</Nav.Link>
           </Nav>
         </Container>
       </Navbar>
