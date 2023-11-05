@@ -1,7 +1,6 @@
 import { useContext, useState } from "react"
 import { loginService, signupService } from "../services/user"
 import { UserContext } from "../context/UserContext"
-import 
 
 export const AuthForm = () => {
     const [isMember, setIsMember] = useState(false)
@@ -26,11 +25,6 @@ export const AuthForm = () => {
     }
 
     return (
-
-
-
-
-
         <section>
             <p>{token}</p>
             <form onSubmit={onSubmit} >
